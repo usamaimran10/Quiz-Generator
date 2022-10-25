@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Card from "../src/Card/Card";
+import Card from "../src/Elements/Card/Card";
 import classes from "../styles/Home.module.css";
 
 export default function Home() {
@@ -13,7 +13,6 @@ export default function Home() {
       <div className={classes.card}>
         <Card />
       </div>
-      {/* <Quiz /> */}
     </div>
   );
 }
