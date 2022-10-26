@@ -14,7 +14,6 @@ const Card = () => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm();
   const onSubmit = ({ difficulty, amount, category }) => {
